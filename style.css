@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ########### Home page-style ########### */
+.Home h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.image-text-container{
+    padding: 2rem 1rem;
+    display: flex;
+    column-gap: 1rem; 
+    border-bottom : 2px solid #827d7d;
+}
+
+.text-box {
+     padding-top: 3rem;
+}
+.text-box h2{
+    font-size: 3rem
+}
+.text-box p{
+    padding-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.image-box img{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+/* ########## Education section style ############ */
+.ed-h2{
+    padding: 2rem 2.5rem;
+    font-size: 3rem;
+}
+
+.count{
+    border-bottom: 2px solid #827d7d;
+}
+
+.count-item{
+    display: flex;
+    padding: 1rem 1rem;
+    /* margin-left: 2rem; */
+}
+.fun{
+    margin-left: 2.5rem;
+    font-size: 2rem;
+}
+.fun1{
+    padding-top: 2rem;
+    margin-left: 7rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.fun2{
+    padding-top: 1rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* ######### Professional section style ############# */
+
+.professional{
+    border-bottom: 2px solid #827d7d;
+    padding-bottom: 1rem;
+}
+
+.pro-h2{
+    font-size: 3rem;
+    padding: 2rem 2.5rem;
+}
+
+.professional-container{
+    display: flex;
+}
+.skill{
+    padding-top: 1.5rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.skill h3{
+    font-weight: 700;
+}
+
+.skill2-h3{
+    margin-left: 1.5rem;
+}
+.skill3-h3{
+    margin-left: 1.5rem;
+}
+
+.star-rating{
+    padding-top: 3rem;
+    margin-left: 1rem;
+}
+.star3{
+    margin-left: 2rem;
+}
+
+/* ######### btn style ##########3 */
+
+.link{
+    padding: 2rem 2rem;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #585555;
+    border-radius: 50px;
+    padding: 0.7rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(204, 248, 248);
+    cursor: pointer;
+    outline: none;
+     /* margin-left: 1rem; */
+}
+
+/* ########## contact area style ############# */
+
+.Cont-h2{
+    padding: 2rem 1rem;
+    font-size: 3rem;
+}
+
+.Contact-container{
+    border-bottom: 2px solid #827d7d;
+}
+
+.Contact-items{
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+}
+
+.Contact-items input{
+    font-size: 1.6rem;
+    padding: 0.2rem;
+    margin-left: 0.3rem;
+}
+
+.cont-p{
+    /* text-align: center; */
+    padding-top: 4rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+}
+/* .center{
+   position: relative;
+}
+.center a{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+} */
+
+
+/* ########## join style area ############# */
+
+.join-h2{
+    padding: 1rem 1rem;
+    font-size: 3rem;
+}
+
+.join-container{
+    border-bottom: 2px solid #827d7d;
+    padding-bottom: 1rem;
+}
+
+.join-items{
+    padding: 0rem 1rem;
+    font-size: 1.6rem;
+}
